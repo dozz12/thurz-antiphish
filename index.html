@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>ThurZ-Antiphish</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎯 Antiphish - Cek & Lapor Link Phishing</h1>
+
+  <div class="box">
+    <h2>🔍 Cek Link</h2>
+    <input type="text" id="urlInput" placeholder="Masukkan URL...">
+    <button onclick="cekLink()">Cek</button>
+    <p id="cekResult"></p>
+  </div>
+
+  <div class="box">
+    <h2>🚨 Laporkan Link</h2>
+    <input type="text" id="reportUrl" placeholder="URL mencurigakan">
+    <textarea id="reportDesc" placeholder="Deskripsi singkat..."></textarea>
+    <input type="email" id="reportEmail" placeholder="Email (opsional)">
+    <button onclick="laporLink()">Kirim</button>
+    <p id="laporResult"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

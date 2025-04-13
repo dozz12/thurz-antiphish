@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif;
+  background: #f3f4f6;
+  padding: 2rem;
+}
+h1 {
+  color: #1f2937;
+}
+.box {
+  background: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+input, textarea, button {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+button {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
